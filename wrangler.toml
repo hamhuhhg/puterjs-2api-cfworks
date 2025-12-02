@@ -1,0 +1,12 @@
+# Cloudflare Worker 项目的名称
+name = "puterjs-2api-cfworks"
+
+# 明确指定 Worker 的入口文件路径
+# 您的文件是 worker.js 并且在根目录
+main = "worker.js"
+
+# 兼容性日期，请使用最新的日期，例如今天或未来的日期
+compatibility_date = "2025-11-21"
+
+# 这是一个单文件 Worker，不需要构建步骤 (如 webpack/esbuild)，可以直接部署。
+# type = "javascript" # 默认值，可以省略
